@@ -1,5 +1,7 @@
 # Functional Requirements
 
+### Table 1
+
 | Requirement ID     | Requirement Definition     |
 | :--- | :--- |
 | FR1.0 | The system shall allow the user to enter an idea.   |
@@ -10,4 +12,4 @@
 | FR6.0 | The system shall allow the user to view successful ideas from the past.   |
 | FR7.0 | The system shall allow the user to view unsuccessful ideas from the past.   |
 | FR8.0 | The system shall allow the user to view the PCDA status of a current idea.   |
-| FR9.0 | The system shall allow the user to view some graphical statistics about ideas in the system.   |
+| FR9.0 | The system shall allow the user to view some graphical statistics about ideas.   |
