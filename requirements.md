@@ -32,27 +32,27 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | ID     | Requirement Definition     |
 | :--- | :--- |
 | FR1-1 | The system shall allow the user to enter an idea.   |
-| FR1-1.1 | The system shall allow the user to enter an idea.   |
+| FR1-1.1 | Example sub-requirement.   |
 | FR1-2 | The system shall allow the user to edit/update their own ideas.   |
 
 #### Table 2: Viewing Ideas
 | ID     | Requirement Definition     |
 | :--- | :--- |
-| FR2.0 | The system shall allow the user to view their own ideas.   |
-| FR2.1 | The system shall allow the user to view other users ideas.   |
-| FR2.2 | The system shall allow the user to view the PCDA status of a current idea.   |
+| FR2-1 | The system shall allow the user to view their own ideas.   |
+| FR2-2 | The system shall allow the user to view other users ideas.   |
+| FR2-3 | The system shall allow the user to view the PCDA status of a current idea.   |
 
 #### Table 3: Searching/Filtering Ideas
 | ID     | Requirement Definition     |
 | :--- | :--- |
-| FR3.0 | The system shall allow the user to view successful ideas from the past.   |
-| FR3.1 | The system shall allow the user to view unsuccessful ideas from the past.   |
+| FR3-1 | The system shall allow the user to view successful ideas from the past.   |
+| FR3-2 | The system shall allow the user to view unsuccessful ideas from the past.   |
 
 #### Table 4: Viewing Statistics of Ideas
 | ID     | Requirement Definition     |
 | :--- | :--- |
-| FR4.0 | The system shall allow the user to view some graphical statistics about ideas.   |
-| FR4.1 | The system shall allow the user to view the total number of submitted ideas.   |
+| FR4-1 | The system shall allow the user to view some graphical statistics about ideas.   |
+| FR4-2 | The system shall allow the user to view the total number of submitted ideas.   |
 
 ## 4 Other Requirements
 The application should be "user-friendly" and easy to maintain.
