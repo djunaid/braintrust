@@ -30,4 +30,8 @@
  9. Overall opinions or suggestions for this page?
 
 ## My Ideas
-
+ 1. How difficult was it to add your idea?
+ 2. Was the information entering process for creating an idea easy (or difficult)?
+ 3. Were the contents of each tab what you were expecting?
+ 4. Did the 'SAVE DRAFT' and 'SUBMIT' buttons function as you expected?
+ 5. Was there anything confusing about the 'Draft' tab?
