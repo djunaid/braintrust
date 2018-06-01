@@ -19,4 +19,15 @@
  3. Was there something missing from the Leaderboards page that you were expecting?
 
 ## My Team
+ 1. How difficult was it to distinguish a given idea from the others on the page?
+ 2. How did you feel about the amount of information presented for each idea? (i.e. too much, too little, just right)
+ 3. Was there any information you were expecting to see but didn't?
+ 4. Was it apparent that clicking on an idea would expand it to display more information?
+ 5. Was there anything confusing about the Score?
+ 6. Did the 'Add Amendment' button function as you expected?
+ 7. Was it easy (or difficult) to expand/collapse the ammendments list?
+ 8. Was there anything confusing about the Completed/Abandoned tabs?
+ 9. Overall opinions or suggestions for this page?
+
+## My Ideas
 
