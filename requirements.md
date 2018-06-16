@@ -74,7 +74,7 @@ Take mockups and break them down into individual requirements (1 sentence each),
 #### Table 3: Searching/Filtering Ideas
 | ID     | Requirement Definition     |
 | :--- | :--- |
-| FR3-1 | The system shall allow the user to view successful ideas from the past.   |
+| FR3-1 | The system shall allow the user to view successful (completed) ideas from the past.   |
 | FR3-2 | The system shall allow the user to view unsuccessful (abandoned) ideas from the past.   |
 | FR3-3 | The system shall allow the user to filter ideas on any field from FR2-1.1.   |
 
@@ -113,6 +113,18 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | FR6-3.2 | The drop-down menu shall enforce the correct PDEA flow (e.g. P->D->E->A).   |
 | FR6-3.3 | The 'Complete' status shall only be available after the 'Evaluate' phase.   |
 | FR6-3.4 | The 'Abandon' status shall be available at any phase.   |
+
+#### Table 7: Administrator Tools
+| ID     | Requirement Definition     |
+| :--- | :--- |
+| FR7-1 | The system shall allow an Administrator to Add/Edit/Delete users.   |
+| FR7-2 | The system shall allow an Administrator to change the PDEA status of ideas.   |
+| FR7-3 | The system shall allow an Administrator to Delete ideas.   |
+| FR7-4 | The system shall allow an Administrator to Add/Rename/Delete Divisions and Units.   |
+| FR7-5 | The system shall allow an Administrator to manage the points system (see [Discussion](./discussions.md) document for details).   |
+| FR7-6 | The system shall allow an Administrator to manage rewards.   |
+| FR7-6.1 | The system shall allow an Administrator to manage Global and Team rewards (see [Discussion](./discussions.md) document for details).   |
+| FR7-7 | The system shall allow an Administrator to manage the homepage *Success Stories* and *What's New*.   |
 
 ## 4 Other Requirements
 The application should be "user-friendly" and easy to maintain.
