@@ -23,4 +23,7 @@ TODO: Table of Contents to navigate problems quickly.
       * **Cons:** The amount of delegates per team should be selected carefully --- too many delegates may lead to abuse of the points system; too few and the work load is not adequately distributed. Assigning delegate(s) is itself work, so it is another thing Managers have to do.
 
 **Recommendations:**
-Use a combination of (2) and (3). Start with (2) and observe the suggested "ideas per week" number. If the Manager cannot process this number of ideas per week such that the amound of "forgotton"/"stuck" ideas is minimal, use (3) and introduce delegates.
+
+Use a combination of (2) and (3). Start with (2) and observe the suggested "ideas per week" number. If the Manager cannot process this number of ideas per week such that the amount of "forgotton"/"stuck" ideas is minimal, use (3) and introduce delegates.
+
+This recommendation avoids the problems of (1), while also solving the Manager bottleneck issue. For most teams (small), suggestion (2) might be sufficient. If (2) is not sufficient (e.g. for large teams), adding delegates from (3) provides flexibility to mitigate potential "forgotten"/"stuck" ideas that may be introduced in (2).
