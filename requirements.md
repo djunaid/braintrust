@@ -60,13 +60,14 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | ID     | Requirement Definition     |
 | :--- | :--- |
 | FR5-1 | The system shall allow the user to log into their account.   |
-| FR5-1.1 | The system shall allow the user to authenticate with their eHealth username and password.   |
-| FR5-1.2 | The system shall display a "forgot password" link closely in proximity to the login button.   |
-| FR5-1.2.1 | The system shall take the user to a forgot password page after clicking the "forgot password" link.   |
+| FR5-1.1 | The system shall allow the user to create an eIDEAS account.   |
+| FR5-1.2 | The system shall allow the user to authenticate with their eIDEAS username and password.   |
+| FR5-1.3 | The system shall display a "forgot password" link closely in proximity to the login button.   |
+| FR5-1.3.1 | The system shall take the user to a forgot password page after clicking the "forgot password" link.   |
 | FR5-2 | The system shall have a home page presented after logging in.   |
 | FR5-2.1 | The system's home page shall have a tabular navigation bar.   |
 | FR5-2.2 | The system's home page shall display graphical 2D statistics about ideas (see FR4-1.1).   |
-| FR5-2.3 | The system's home page shall display a small paragraph about eIDEAS.   |
+| FR5-2.3 | The system's home page shall display a small paragraph about eIDEAS (via pop-up).   |
 | FR5-2.4 | The system shall have a "Contact Us" page link in the tabular navigation.   |
 | FR5-2.4.1 | The "Contact Us" page shall display name, email, message field, and a submit button.   |
 
