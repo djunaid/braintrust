@@ -4,9 +4,13 @@ The purpose of this document is to outline some potential problems with respect 
 TODO: Table of Contents to navigate problems quickly.
 
 ## Design Decisions (Reasoning)
-### Points Structure (Why? Etc.)
+### Points System (Why? Structure? Give users info about Points)
 ### User Help (Pop-up information & Mouseovers)
 ### Leaderboard & Weighting of Points
+#### Why have users compete with eachother?
+### Include User Profile Photo (Why? Where?)
+### Amendments (Why?)
+### PDCA (Why?)
 
 ## Potential Problems
 
