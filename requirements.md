@@ -57,9 +57,12 @@ Take mockups and break them down into individual requirements (1 sentence each),
 #### Table 1: Creating/Updating Ideas
 | ID     | Requirement Definition     |
 | :--- | :--- |
-| FR1-1 | The system shall allow the user to enter a new idea.   |
-| FR1-2 | The system shall allow the user to edit/update their own ideas.   |
-| FR1-2.1 | The system shall allow the user to add amendments to an idea.   |
+| FR1-1 | The system shall allow the user to create a new idea.   |
+| FR1-1.1 | When creating a new idea the system shall require the user to enter a title, problem description, and solution plan.   |
+| FR1-1.2 | When creating a new idea the system shall require the user to select a division and/or unit via an autocomplete drop down list.   |
+| FR1-1.3 | The system shall allow the user to 'Save as Draft' or 'Submit' the idea.   |
+| FR1-1.4 | The system shall allow the user to add amendments to a submitted idea.   |
+| FR1-2 | The system shall allow the user to edit their non-submitted ideas by saving as a draft.   |
 
 #### Table 2: Viewing Ideas
 | ID     | Requirement Definition     |
@@ -100,7 +103,7 @@ Take mockups and break them down into individual requirements (1 sentence each),
 #### Table 6: PDEA Management
 | ID     | Requirement Definition     |
 | :--- | :--- |
-| FR6-1 | The system shall display the following: idea id, submitter name, idea title, current PDEA status, select PDEA status drop-down button, 'view more' button.   |
+| FR6-1 | The system shall display the following: idea id, submitter name, team, idea title, current PDEA status, select PDEA status drop-down button, 'view more' button.   |
 | FR6-1.1 | The 'view more' button shall display the idea's expaned view as defined by FR2-1.1 via pop-up.   |
 | FR6-2 | The system shall allow the user (via management page) to change the PDEA status of an idea for their respective team(s).   |
 | FR6-3 | The system shall provide a drop-down menu to select Plan/Do/Evaluate/Adapt/Abandon/Complete statuses for an idea.   |
