@@ -12,7 +12,7 @@ TODO: Table of Contents to navigate problems quickly.
 **Suggestions:**
   1. Allow all users to move the PDCA status with no restrictions.
   2. Emphasize somewhere (e.g. About eIDEAS pop-up on homepage) that Managers are not required to process every single idea submitted. Suggest that they process some number of ideas per week (e.g. 5 per week). These ideas can be selected at the Manager's discretion (e.g. choose "top ideas" as ranked by Score).
-  3. Managers can designate another user from their team (or multiple if they are part of more than one team) to act on their behalf to move the PDCA status.
+  3. Managers can designate another user from their team (or multiple if they are part of more than one team) to act on their behalf to move the PDCA status. This should be limited to team size in order to avoid (1) above. For example, a manager can assign 1 delegate per 10 members of their team (i.e. team size of 10 -> 1 delegate, team size of 20 -> 2 delegates, etc).
 
 **Pros/Cons:**
 
