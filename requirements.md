@@ -100,14 +100,16 @@ Take mockups and break them down into individual requirements (1 sentence each),
 #### Table 6: PDEA Management
 | ID     | Requirement Definition     |
 | :--- | :--- |
-| FR6-1 | The system shall allow the user (via management page) to change the PDEA status of an idea for their respective team(s).   |
-| FR6-2 | The system shall provide a drop-down menu to select Plan/Do/Evaluate/Adapt/Abandon/Complete statuses for an idea.   |
-| FR6-2.1 | After selection of each Plan/Do/Evaluate/Adapt/Abandon/Complete status a pop-up confirmation message will be presented.   |
-| FR6-2.1.1 | After selecting the Adapt status the system shall allow the user to type in an updated plan. This plan should reflect adaptations discovered in the Evaluation phase.   |
-| FR6-2.1.2 | After selecting the Abandon status the system shall allow the user to type in a reason for abandonment.   |
-| FR6-2.2 | The drop-down menu shall enforce the correct PDEA flow (e.g. P->D->E->A).   |
-| FR6-2.3 | The 'Complete' status shall only be available after the 'Evaluate' phase.   |
-| FR6-2.4 | The 'Abandon' status shall be available at any phase.   |
+| FR6-1 | The system shall display the following: idea id, submitter name, idea title, current PDEA status, select PDEA status drop-down button, 'view more' button.   |
+| FR6-1.1 | The 'view more' button shall display the idea's expaned view as defined by FR2-1.1 via pop-up.   |
+| FR6-2 | The system shall allow the user (via management page) to change the PDEA status of an idea for their respective team(s).   |
+| FR6-3 | The system shall provide a drop-down menu to select Plan/Do/Evaluate/Adapt/Abandon/Complete statuses for an idea.   |
+| FR6-3.1 | After selection of each Plan/Do/Evaluate/Adapt/Abandon/Complete status a pop-up confirmation message will be presented.   |
+| FR6-3.1.1 | After selecting the Adapt status the system shall allow the user to type in an updated plan. This plan should reflect adaptations discovered in the Evaluation phase.   |
+| FR6-3.1.2 | After selecting the Abandon status the system shall allow the user to type in a reason for abandonment.   |
+| FR6-3.2 | The drop-down menu shall enforce the correct PDEA flow (e.g. P->D->E->A).   |
+| FR6-3.3 | The 'Complete' status shall only be available after the 'Evaluate' phase.   |
+| FR6-3.4 | The 'Abandon' status shall be available at any phase.   |
 
 ## 4 Other Requirements
 The application should be "user-friendly" and easy to maintain.
