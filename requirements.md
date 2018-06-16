@@ -33,7 +33,7 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | :--- | :--- |
 | FR1-1 | The system shall allow the user to enter a new idea.   |
 | FR1-2 | The system shall allow the user to edit/update their own ideas.   |
-| FR1-2.1 | The system shall allow the user to add comments (if any) to an idea.   |
+| FR1-2.1 | The system shall allow the user to add amendments to an idea.   |
 
 #### Table 2: Viewing Ideas
 | ID     | Requirement Definition     |
@@ -46,7 +46,7 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | ID     | Requirement Definition     |
 | :--- | :--- |
 | FR3-1 | The system shall allow the user to view successful ideas from the past.   |
-| FR3-2 | The system shall allow the user to view unsuccessful ideas from the past.   |
+| FR3-2 | The system shall allow the user to view unsuccessful (abandoned) ideas from the past.   |
 | FR3-3 | The system shall allow the user to filter ideas on any field from FR2-1.1.   |
 
 #### Table 4: Viewing Statistics of Ideas
@@ -59,7 +59,7 @@ Take mockups and break them down into individual requirements (1 sentence each),
 #### Table 5: Home Page/Login/Contact Us
 | ID     | Requirement Definition     |
 | :--- | :--- |
-| FR5-1 | The system shall allow the user to log into their account.   |
+| FR5-1 | The system shall allow the user to log into their eIDEAS account.   |
 | FR5-1.1 | The system shall allow the user to create an eIDEAS account.   |
 | FR5-1.2 | The system shall allow the user to authenticate with their eIDEAS username and password.   |
 | FR5-1.3 | The system shall display a "forgot password" link closely in proximity to the login button.   |
@@ -67,7 +67,7 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | FR5-2 | The system shall have a home page presented after logging in.   |
 | FR5-2.1 | The system's home page shall have a tabular navigation bar.   |
 | FR5-2.2 | The system's home page shall display graphical 2D statistics about ideas (see FR4-1.1).   |
-| FR5-2.3 | The system's home page shall display a small paragraph about eIDEAS (via pop-up).   |
+| FR5-2.3 | The system's home page shall display a small paragraph about eIDEAS (via pop-up on the homepage).   |
 | FR5-2.4 | The system shall have a "Contact Us" page link in the tabular navigation.   |
 | FR5-2.4.1 | The "Contact Us" page shall display name, email, message field, and a submit button.   |
 
