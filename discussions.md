@@ -3,6 +3,11 @@ The purpose of this document is to outline some potential problems with respect 
 
 TODO: Table of Contents to navigate problems quickly.
 
+## Design Decisions (Reasoning)
+### Points Structure (Why? Etc.)
+### User Help (Pop-up information & Mouseovers)
+### Leaderboard & Weighting of Points
+
 ## Potential Problems
 
 ### [Problem 1] Management bottleneck w.r.t. processing ideas
