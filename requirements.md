@@ -71,6 +71,12 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | FR5-2.4 | The system shall have a "Contact Us" page link in the tabular navigation.   |
 | FR5-2.4.1 | The "Contact Us" page shall display name, email, message field, and a submit button.   |
 
+#### Table 6: Idea PDCA Progression
+| ID     | Requirement Definition     |
+| :--- | :--- |
+| FR6-1 | The system shall allow the user (manager) to change the PDCA phase of ideas within their team(s).   |
+
+
 ## 4 Other Requirements
 The application should be "user-friendly" and easy to maintain.
 
