@@ -132,6 +132,13 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | FR7-6.1 | The system shall allow an Administrator to manage Global and Team rewards (see [Discussion](./discussions.md) document for details).   |
 | FR7-7 | The system shall allow an Administrator to manage the homepage *Success Stories* and *What's New*.   |
 
+#### Table 8: User Account
+| ID     | Requirement Definition     |
+| :--- | :--- |
+| FR8-1 | The system shall allow the user to change their account information (i.e email, password, phone number, etc).   |
+| FR8-2 | The system shall allow the user to upload a profile photo.   |
+| FR8-3 | The system shall allow the user to view their current reward progress (both team and individual).   |
+
 ## 4 Other Requirements
 The application should be "user-friendly" and easy to maintain.
 
