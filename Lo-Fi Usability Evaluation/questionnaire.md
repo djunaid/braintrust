@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Usability Questionnaire](#usability-questionnaire)
+  - [Create a User Account](#create-a-user-account)
+  - [Log into their User Account](#log-into-their-user-account)
+  - [eIDEAS Homepage](#eideas-homepage)
+  - [Leaderboard](#leaderboard)
+  - [My Team](#my-team)
+  - [My Ideas](#my-ideas)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Usability Questionnaire
 
 ## Create a User Account

@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Discussion](#discussion)
+  - [Design Decisions (Reasoning)](#design-decisions-reasoning)
+    - [Points System (Why? Structure? Give users info about Points)](#points-system-why-structure-give-users-info-about-points)
+    - [User Help (Pop-up information & Mouseovers)](#user-help-pop-up-information--mouseovers)
+    - [Leaderboard & Weighting of Points](#leaderboard--weighting-of-points)
+      - [Why have users compete with eachother?](#why-have-users-compete-with-eachother)
+    - [Include User Profile Photo (Why? Where?)](#include-user-profile-photo-why-where)
+    - [Amendments (Why?)](#amendments-why)
+    - [PDCA (Why?)](#pdca-why)
+  - [Potential Problems](#potential-problems)
+    - [[Problem 1] Management bottleneck w.r.t. processing ideas](#problem-1-management-bottleneck-wrt-processing-ideas)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Discussion
 The purpose of this document is to outline some potential problems with respect to eIDEAS design decisions and discuss potential solution alternatives.
 

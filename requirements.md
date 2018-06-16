@@ -1,3 +1,27 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Functional Requirements](#functional-requirements)
+  - [1 Introduction](#1-introduction)
+    - [1.1 Purpose](#11-purpose)
+    - [1.2 Scope](#12-scope)
+    - [1.3 References](#13-references)
+    - [1.4 Assumptions](#14-assumptions)
+  - [2 Methodology](#2-methodology)
+  - [3 Functional Requirements](#3-functional-requirements)
+      - [Table 1: Creating/Updating Ideas](#table-1-creatingupdating-ideas)
+      - [Table 2: Viewing Ideas](#table-2-viewing-ideas)
+      - [Table 3: Searching/Filtering Ideas](#table-3-searchingfiltering-ideas)
+      - [Table 4: Viewing Statistics of Ideas](#table-4-viewing-statistics-of-ideas)
+      - [Table 5: Home Page/Login/Contact Us](#table-5-home-pagelogincontact-us)
+      - [Table 6: Idea PDCA Progression](#table-6-idea-pdca-progression)
+  - [4 Other Requirements](#4-other-requirements)
+    - [4.1 Interface Requirements](#41-interface-requirements)
+      - [4.1.1 Software Interfaces](#411-software-interfaces)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Functional Requirements
 
 ## 1 Introduction
