@@ -39,7 +39,7 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | ID     | Requirement Definition     |
 | :--- | :--- |
 | FR2-1 | The system shall allow the user to view their own (as well as others) ideas.   |
-| FR2-1.1 | Each idea shall display (at minimum) the following information: submitter name, team, idea title, idea description, "tags"/affecting areas, idea creation time, (PCDA) status.   |
+| FR2-1.1 | Each idea shall display (at minimum) the following information: submitter name, team, idea title, idea description, ~~"tags"/affecting areas~~, idea creation time, (PCDA) status.   |
 | FR2-2 | The system shall allow the user to view the PCDA status of a current idea.   |
 
 #### Table 3: Searching/Filtering Ideas
