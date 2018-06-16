@@ -15,7 +15,7 @@
       - [Table 3: Searching/Filtering Ideas](#table-3-searchingfiltering-ideas)
       - [Table 4: Viewing Statistics of Ideas](#table-4-viewing-statistics-of-ideas)
       - [Table 5: Home Page/Login/Contact Us](#table-5-home-pagelogincontact-us)
-      - [Table 6: Idea PDCA Progression](#table-6-idea-pdca-progression)
+      - [Table 6: Idea PDEA Progression](#table-6-idea-pdca-progression)
   - [4 Other Requirements](#4-other-requirements)
     - [4.1 Interface Requirements](#41-interface-requirements)
       - [4.1.1 Software Interfaces](#411-software-interfaces)
@@ -25,9 +25,11 @@
 # Functional Requirements
 
 ## 1 Introduction
-The system requested by eHealth with the goal to improve the quality of healthcare  across the province. This follows the organization's ongoing efforts to foster an internal culture of innovation. Using Plan, Do, Check, Act (PDCA) cycles the goal is to improve quality, cost, delivery, safety, and engagement (QCDSE).
+The system requested by eHealth with the goal to improve the quality of healthcare  across the province. This follows the organization's ongoing efforts to foster an internal culture of innovation. Using Plan, Do, Check, Act (PDEA) cycles the goal is to improve quality, cost, delivery, safety, and engagement (QCDSE).
 
 The proposed project accomplishes this by providing and application for employees to submit their ideas for improving existing organizational processes.  This increases visibility of individual and collaborative work.
+
+**Notice:** **P**lan **D**o **C**heck **A**ct has been substituted by **P**lan **D**o **E**valuate **A**dapt.
 
 ### 1.1 Purpose
 The purpose of this document is to provide a backbone reference for the development of the eIDEAS project. The below sections are intended to provide a list of specific functional requirements that can lead to a minimum viable product.
@@ -95,11 +97,17 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | FR5-2.4 | The system shall have a "Contact Us" page link in the tabular navigation.   |
 | FR5-2.4.1 | The "Contact Us" page shall display name, email, message field, and a submit button.   |
 
-#### Table 6: Idea PDCA Progression
+#### Table 6: PDEA Management
 | ID     | Requirement Definition     |
 | :--- | :--- |
-| FR6-1 | The system shall allow the user (manager) to change the PDCA phase of ideas within their team(s).   |
-
+| FR6-1 | The system shall allow the user (via management page) to change the PDEA status of an idea for their respective team(s).   |
+| FR6-2 | The system shall provide a drop-down menu to select Plan/Do/Evaluate/Adapt/Abandon/Complete statuses for an idea.   |
+| FR6-2.1 | After selection of each Plan/Do/Evaluate/Adapt/Abandon/Complete status a pop-up confirmation message will be presented.   |
+| FR6-2.1.1 | After selecting the Adapt status the system shall allow the user to type in an updated plan. This plan should reflect adaptations discovered in the Evaluation phase.   |
+| FR6-2.1.2 | After selecting the Abandon status the system shall allow the user to type in a reason for abandonment.   |
+| FR6-2.2 | The drop-down menu shall enforce the correct PDEA flow (e.g. P->D->E->A).   |
+| FR6-2.3 | The 'Complete' status shall only be available after the 'Evaluate' phase.   |
+| FR6-2.4 | The 'Abandon' status shall be available at any phase.   |
 
 ## 4 Other Requirements
 The application should be "user-friendly" and easy to maintain.
