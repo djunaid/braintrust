@@ -55,7 +55,7 @@ Take mockups and break them down into individual requirements (1 sentence each),
 
 ## 3 Functional Requirements
 
-#### Table 1: Creating/Updating Ideas
+#### Table 1: Creating/Editing Ideas
 | ID     | Requirement Definition     |
 | :--- | :--- |
 | FR1-1 | The system shall allow the user to create a new idea.   |
@@ -69,8 +69,8 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | ID     | Requirement Definition     |
 | :--- | :--- |
 | FR2-1 | The system shall allow the user to view their own (as well as others) ideas.   |
-| FR2-1.1 | Each idea shall display (at minimum) the following information: submitter name, team, idea title, idea description, ~~"tags"/affecting areas~~, idea creation time, (PCDA) status.   |
-| FR2-2 | The system shall allow the user to view the PCDA status of a current idea.   |
+| FR2-1.1 | Each idea shall display (at minimum) the following information: idea score, submitter name, team, idea title, idea description, ~~"tags"/affecting areas~~, idea creation time, PDEA status.   |
+| FR2-2 | The system shall allow the user to view the PDEA status of a current idea.   |
 
 #### Table 3: Searching/Filtering Ideas
 | ID     | Requirement Definition     |
@@ -78,6 +78,7 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | FR3-1 | The system shall allow the user to view successful (completed) ideas from the past.   |
 | FR3-2 | The system shall allow the user to view unsuccessful (abandoned) ideas from the past.   |
 | FR3-3 | The system shall allow the user to filter ideas on any field from FR2-1.1.   |
+| FR3-4 | The system shall allow the user to filter ideas on some values that are not visible (e.g. Division, idea id, creation date).   |
 
 #### Table 4: Viewing Statistics of Ideas
 | ID     | Requirement Definition     |
@@ -85,6 +86,10 @@ Take mockups and break them down into individual requirements (1 sentence each),
 | FR4-1 | The system shall allow the user to view some graphical statistics about ideas.   |
 | FR4-1.1 | The system shall store some statistics about the fields in FR2-1.1 as needed.   |
 | FR4-2 | The system shall allow the user to view the total number of (global) submitted ideas.   |
+| FR4-3 | The system shall allow the user to view an 'Idea Points vs Time' plot for teams and individuals.   |
+| FR4-4 | The system shall allow the user to view a number of different statistical charts to visualize points data.   |
+| FR4-5 | The system shall provide a 'Goto Me' button that when pressed automatically displays the users individual statistics.   |
+| FR4-6 | ~~The system shall provide a 'Goto My Team' button that when pressed automatically displays the users teams' statistics.~~ Disabled because a user may or may not have more than one team.  |
 
 #### Table 5: Home Page/Login/Contact Us
 | ID     | Requirement Definition     |
