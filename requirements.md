@@ -1,4 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update --> 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
@@ -15,7 +15,8 @@
       - [Table 3: Searching/Filtering Ideas](#table-3-searchingfiltering-ideas)
       - [Table 4: Viewing Statistics of Ideas](#table-4-viewing-statistics-of-ideas)
       - [Table 5: Home Page/Login/Contact Us](#table-5-home-pagelogincontact-us)
-      - [Table 6: Idea PDEA Progression](#table-6-idea-pdca-progression)
+      - [Table 6: PDEA Management](#table-6-pdea-management)
+      - [Table 7: Administrator Tools](#table-7-administrator-tools)
   - [4 Other Requirements](#4-other-requirements)
     - [4.1 Interface Requirements](#41-interface-requirements)
       - [4.1.1 Software Interfaces](#411-software-interfaces)
