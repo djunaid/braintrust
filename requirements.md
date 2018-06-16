@@ -1,4 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update --> 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
@@ -29,7 +29,7 @@ The system requested by eHealth with the goal to improve the quality of healthca
 
 The proposed project accomplishes this by providing and application for employees to submit their ideas for improving existing organizational processes.  This increases visibility of individual and collaborative work.
 
-**Notice:** **P**lan **D**o **C**heck **A**ct has been substituted by **P**lan **D**o **E**valuate **A**dapt.
+**Notice:** **P**lan **D**o **C**heck **A**ct has been substituted by **P**lan **D**o **E**valuate **A**dapt. See [Discussion](./discussions.md) document.
 
 ### 1.1 Purpose
 The purpose of this document is to provide a backbone reference for the development of the eIDEAS project. The below sections are intended to provide a list of specific functional requirements that can lead to a minimum viable product.
