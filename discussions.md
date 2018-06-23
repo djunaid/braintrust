@@ -19,12 +19,36 @@
 # Discussion
 The purpose of this document is to outline design decisions as well as some potential problems with respect to Braintrusts eIDEAS project. This document attempts to answer the _why_ questions new readers may have.
 
-TODO: Table of Contents to navigate problems quickly.
 
 ## 1 Points System
-### 1.1 Why?
-### 1.2 Structure?
+The primary function of the point system is to provide some rewards for collaborating. In addition the point system provides various types of motivations which incentivize users to return.
+### 1.1 Motivation
+#### 1.1.1 Users are motivated by earning physical rewards
+#### 1.1.2 Flexibility to Managers w.r.t. setting rewards
+#### 1.1.3 Users are motivated by progression
+#### 1.1.4 Users are motivated by competition
+#### 1.1.5 Easy to track progress goals (Upper Management)
+### 1.2 Structure
+#### 1.2.1 Idea Points
+#### 1.2.2 Participation Points
+#### 1.2.3 Reasoning
+#### 1.2.4 Potential Problems
+To compensate for varying team size, points must be scaled accordingly.
 ### 1.3 Info about Points
+Users are provided information about points 
+## 2 Page Design
+### 2.1 Login
+### 2.2 Registration
+### 2.3 Homepage
+#### 2.3.1 About eIDEAS pop-up
+### 2.4 Leaderboard
+### 2.5 My Team
+#### 2.5.1 Tracking Ideas
+### 2.6 My Ideas
+#### 2.6.1 Scoring Ideas
+### 2.7 Account
+### 2.8 Contact Us
+### 2.9 Admin
 ## 2 User Help
 ### 2.1 Pop-up information
 ### 2.2 Mouseovers
@@ -33,6 +57,8 @@ TODO: Table of Contents to navigate problems quickly.
 ## 5 Include User Profile Photo (Why? Where?)
 ## 6 Amendments (Why?)
 ## 7 PDCA/PDEA (Why?)
+## X Other Ideas
+### User Badges
 
 ## 8 Potential Problems
 
