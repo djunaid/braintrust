@@ -25,26 +25,26 @@ The primary function of the point system is to provide some rewards for collabor
 ### 1.1 Motivation
 The motivations for choosing a points system are described below.
 
-##### Users are motivated by earning physical rewards
+#### Users are motivated by earning physical rewards
 This is one of the strongest motivators for users. Motivation is strongly correlated with the quality of the physical reward. For example, a new car is more motivating than a new water bottle.
-##### Users are motivated by progression
+#### Users are motivated by progression
 Users like seeing themselves improve. Having a point system allows users to see how they are progressing compared to their past selves. If they are improving, they will be happy with themselves. If they are not improving, they might find this fact as a decent motivator.
-##### Users are motivated by competition
+#### Users are motivated by competition
 Competition can also be a strong motivator. Many people like comparing themselves to others because it shows the potential gap between them. If there is a gap, there is room for improvement. If there is room for improvement, people will tend to seek it out.
-##### Flexibility to Managers
+#### Flexibility to Managers
 Managers have flexibility with a point system because the points and rewards themselves can be chosen arbitrarily. For example, managers can select a range of points over time in order to evenly distribute physical rewards while still respecting a budget. This allows the "reward path" to be shaped from the budget and not the other way around.
-##### Easy to track Organizational Progress
+#### Easy to track Organizational Progress
 This is primarily a benefit for Upper Management. Having a point system implies many statistics and metrics about points are already being tracked. This makes it trivial for Upper Management to receive a report out regarding progress. Number of ideas, rate of improvement (individual & team), rate of failure, top contributors, and many others are examples of things that are implicitly tracked.
 
 ### 1.2 Structure
 The structure of the point system provides two ways of measuring progress. The first way is **Idea Points**, which corresponds directly to progression of ideas themselves. The second way is **Participation Points**, which corresponds to user engagement.
-##### Idea Points
+#### Idea Points
 Idea Points are collected by users each time an idea is submitted or completed. These are the "primary currency" with respect to rewards, and as such, are harder to obtain. Being harder to obtain necessitates greater rewards, so managers must mindful of this.
-##### Participation Points
+#### Participation Points
 Participation Points are collected by users each time they engage with an idea in the system. These are the "secondary currency" with respect to rewards, and are easier to obtain than Idea Points. Therefore, rewards for Participation Points should be lesser, but more frequent to promote consistent user engagement. Users may obtain Participation Points by engaging in any action regarding an idea. These actions can be (but are not limited to): scoring an idea, adding an amendment to an idea, creating an idea, moving an idea through it's phases (i.e. PDCA/PDEA).
-##### Reasoning
+#### Reasoning
 Splitting points into two types provides some advantages. Some users may not be as creative as others, so they may not be able to accumulate as many Idea Points. Participation Points give these users a stable way to receive rewards by still providing contributions to the system. Further, having Idea Points to measure the creation and completion of ideas is a straightforward way to track the primary goals of the system.
-##### Potential Problems
+#### Potential Problems
 To compensate for varying team size, points must be scaled accordingly. For example, if normalization is not used, large teams will surely dominate as they have more potential to generate ideas. To allow for a meaningful comparison with respect to teams, each team's cumulative points must be scaled by the size of the team. This is a non-perfect solution, but should work well enough to provide users with competitive motivations. It is important to have meaningful comparisons in competition in order to promote team work.
 
 Normalization is not needed for the individual since comparing individuals is straightforward.
