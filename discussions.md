@@ -48,8 +48,10 @@ Splitting points into two types provides some advantages. Some users may not be 
 To compensate for varying team size, points must be scaled accordingly. For example, if normalization is not used, large teams will surely dominate as they have more potential to generate ideas. To allow for a meaningful comparison with respect to teams, each team's cumulative points must be scaled by the size of the team. This is a non-perfect solution, but should work well enough to provide users with competitive motivations. It is important to have meaningful comparisons in competition in order to promote team work.
 
 Normalization is not needed for the individual since comparing individuals is straightforward.
-### 1.3 Info about Points
-Users are provided information about points 
+### 1.3 Other Information about Points
+Users are provided information about points in various places in the eIDEAS system. Once place is the "About eIDEAS" pop-up that displays when a user first logs into the system. Other places have yet to be determined, but there certainly should be a central area that explains to the user how to earn points, how many points an action rewards, and how many points the user has accumulated as well as their "reward track".
+
+The structure of points will be decided by Administrators via the tools on the Admin page. This will be where exact point values for each action will be entered.
 ## 2 Page Design
 ### 2.1 Login
 ### 2.2 Registration
