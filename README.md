@@ -9,5 +9,7 @@
 # braintrust
 Repository for ENSE 885AS eIDEAS project.
 
-[Requirements Document](./requirements.md)
+Documents:
 
+* [Requirements](./requirements.md)
+* [Discussion](./discussions.md)

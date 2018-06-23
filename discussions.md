@@ -17,22 +17,26 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Discussion
-The purpose of this document is to outline some potential problems with respect to eIDEAS design decisions and discuss potential solution alternatives.
+The purpose of this document is to outline design decisions as well as some potential problems with respect to Braintrusts eIDEAS project. This document attempts to answer the _why_ questions new readers may have.
 
 TODO: Table of Contents to navigate problems quickly.
 
-## Design Decisions (Reasoning)
-### Points System (Why? Structure? Give users info about Points)
-### User Help (Pop-up information & Mouseovers)
-### Leaderboard & Weighting of Points
-#### Why have users compete with eachother?
-### Include User Profile Photo (Why? Where?)
-### Amendments (Why?)
-### PDCA (Why?)
+## 1 Points System
+### 1.1 Why?
+### 1.2 Structure?
+### 1.3 Info about Points
+## 2 User Help
+### 2.1 Pop-up information
+### 2.2 Mouseovers
+## 3 Leaderboard & Weighting of Points
+### 3.1 Why have users compete with eachother?
+## 5 Include User Profile Photo (Why? Where?)
+## 6 Amendments (Why?)
+## 7 PDCA/PDEA (Why?)
 
-## Potential Problems
+## 8 Potential Problems
 
-### [Problem 1] Management bottleneck w.r.t. processing ideas
+### 8.1 [Problem 1] Management bottleneck w.r.t. processing ideas
 
 **Description:** Managers may be overburdened by the amount of ideas they have to process if they must move the PDCA status for every idea for each team they manage.
 
@@ -51,6 +55,6 @@ TODO: Table of Contents to navigate problems quickly.
 
 **Recommendations:**
 
-Use a combination of (2) and (3). Start with (2) and observe the suggested "ideas per week" number. If the Manager cannot process this number of ideas per week such that the amount of "forgotton"/"stuck" ideas is minimal, use (3) and introduce delegates.
+Use a combination of (2) and (3). Start with (2) and observe the suggested "ideas per week" number. If the Manager cannot process this number of ideas per week such that the amount of "forgotten"/"stuck" ideas is minimal, use (3) and introduce delegates.
 
 This recommendation overcomes the problems of (1), while also solving the Manager bottleneck issues. For most teams (small), suggestion (2) might be sufficient. If (2) is not sufficient (e.g. for large teams), adding delegates from (3) provides flexibility to mitigate potential "forgotten"/"stuck" ideas that may be introduced by (2).
