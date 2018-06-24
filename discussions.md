@@ -128,21 +128,45 @@ Scoring is limited from 1 to 5 (1-worst, 5-best) to make selecting a score easy.
 Each idea score is simply the calculated average of each users assigned score number.
 
 #### 2.5.2 Amendments
+The **Add Amendment** button provides users with the ability to suggest minor changes to the idea. These suggestions can: improve the idea, make the idea more fair or accurate, and keep the idea up-to-date.
 
+This feature is in line the eIDEAS mantra _Kaizen_ as it enables small incremental improvements during the Plan and Evaluate phases of PDCA/PDEA.
+
+**Note:** The Add Amendments button should only be enabled during the Plan and Adapt phases.
 
 #### 2.5.3 My Ideas
+The **My Ideas** page shows all of ideas that the individual user has submitted.
+
 #### 2.5.4 My Team
+The **My Team** page shows all of the team ideas.
+
 ##### Tracking Ideas
+Users are able to track ideas that are of interest to them. This allows users to collect ideas and quickly visualize them.
+
+Users can track and untrack ideas at any time. If a Manager or delegate (see Section [8.1](#81-problem-1-management-bottleneck-wrt-processing-ideas)) has an idea tracked, they can change the PDEA status via drop-down menu.
+
+A "crosshair" icon is displayed in the top right of any idea that the current user has tracked. In addition, any tracked idea is view-able from the **Tracked Ideas** tab.
+
 ##### PDCA/PDEA Progress
+The PDEA status of an idea can be progressed by tracking an idea and viewing it in the **Tracked Ideas** tab. If the user has proper credentials (e.g. Manager or delegate), then a drop-down will be available to change the status. If the user does not have proper credentials, the drop-down will be disabled (but still visible).
+
+Normal users should not be allowed to change their own PDEA status. Reasoning for this is outlined in Section [8.1](#81-problem-1-management-bottleneck-wrt-processing-ideas).
+
+**Note:** For our mockups we have decided to change **P**lan **D**o **C**heck **A**ct (PDCA) to **P**lan **D**o **E**valuate **A**dapt (PDEA) as we feel "Evaluate" and "Adapt" are more easily understood.
+
 ### 2.6 Account
 ### 2.7 Contact Us
 ### 2.8 Admin
 ## 3 User Help
 ### 3.1 Pop-up information
 ### 3.2 Mouseovers
+Add mouseover tips for the idea expansion arrow to explain that it can be clicked (e.g. "show more").
+
 ## 7 PDCA/PDEA (Why?)
 ## X Other Ideas
 ### User Badges
+### Report Generation
+Have buttons to generate weekly/monthly/yearly reports about the number of ideas submitted/completed/abandoned etc etc etc.
 
 ## 8 Potential Problems
 
@@ -151,6 +175,7 @@ Each idea score is simply the calculated average of each users assigned score nu
 **Description:** Managers may be overburdened by the amount of ideas they have to process if they must move the PDCA status for every idea for each team they manage.
 
 **Suggestions:**
+
   1. Allow all users to move the PDCA status with no restrictions.
       * **Pros:** Manager will be completely burden-free as any user can progress the PDCA cycle.
       * **Cons:** If every user can progress an idea along then there will be users who abuse the system to maximize their points. For example, create "dummy" idea and move it to completion instantly in order to collect points.
