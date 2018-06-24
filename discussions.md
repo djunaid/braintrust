@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [Discussion](#discussion)
   - [1 Points System](#1-points-system)
@@ -39,7 +39,7 @@
     - [4.1 User Badges](#41-user-badges)
     - [4.2 Report Generation](#42-report-generation)
   - [5 Potential Problems](#5-potential-problems)
-    - [5.1 [Problem 1] Management bottleneck w.r.t. processing ideas](#51-problem-1-management-bottleneck-wrt-processing-ideas)
+    - [5.1 Management bottleneck w.r.t. processing ideas](#51-management-bottleneck-wrt-processing-ideas)
     - [5.2 Duplicate Ideas](#52-duplicate-ideas)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -59,7 +59,7 @@ This is one of the strongest motivators for users. Motivation is strongly correl
 #### Users are motivated by progression
 Users like seeing themselves improve. Having a point system allows users to see how they are progressing compared to their past selves. If they are improving, they will be happy with themselves. If they are not improving, they might find this fact as a decent motivator.
 #### Users are motivated by competition
-Competition can also be a strong motivator. Many people like comparing themselves to others because it shows the potential gap between them. If there is a gap, there is room for improvement. If there is room for improvement, people will tend to seek it out.
+Competition can also be a strong motivator. Many people like comparing themselves to others because it shows the potential gap between them (i.e. room for improvement). If there is room for improvement, people will tend to seek it out.
 #### Flexibility to Managers
 Managers have flexibility with a point system because the points and rewards themselves can be chosen arbitrarily. For example, managers can select a range of points over time in order to evenly distribute physical rewards while still respecting a budget. This allows the "reward path" to be shaped from the budget and not the other way around.
 #### Easy to track Organizational Progress
@@ -78,7 +78,7 @@ To compensate for varying team size, points must be scaled accordingly. For exam
 
 Normalization is not needed for the individual since comparing individuals is straightforward.
 ### 1.3 Other Information about Points
-Users are provided information about points in various places in the eIDEAS system. Once place is the "About eIDEAS" pop-up that displays when a user first logs into the system. Other places have yet to be determined, but there certainly should be a central area that explains to the user how to earn points, how many points an action rewards, and how many points the user has accumulated as well as their "reward track".
+Users are provided information about points in various places in the eIDEAS system. One place is the "About eIDEAS" pop-up that displays when a user first logs into the system. Other places have yet to be determined, but there certainly should be a central area that explains to the user how to earn points, how many points an action rewards, and how many points the user has accumulated as well as their "reward track".
 
 The structure of points will be decided by Administrators via the tools on the Admin page. This will be where exact point values for each action will be entered.
 ## 2 Design
@@ -165,10 +165,10 @@ Normal users should not be allowed to change their own PDEA status. Reasoning fo
 **Note:** For our mockups we have decided to change **P**lan **D**o **C**heck **A**ct (PDCA) to **P**lan **D**o **E**valuate **A**dapt (PDEA) as we feel "Evaluate" and "Adapt" are more easily understood.
 
 ### 2.6 Account
-This page is hasn't been designed yet but should include basic user account functionality (e.g. change password). See Table 8 in the [Requirements Document](./requirements.md) for more information.
+This page hasn't been designed yet, but should include basic user account functionality (e.g. change password). See Table 8 in the [Requirements Document](./requirements.md) for more information.
 
 ### 2.7 Contact Us
-This page is hasn't been designed yet but should include basic information about eIDEAS. See FR5-2.4 and FR5-2.4.1 in the [Requirements Document](./requirements.md) for more information.
+This page hasn't been designed yet, but should include basic information about eIDEAS. See FR5-2.4 and FR5-2.4.1 in the [Requirements Document](./requirements.md) for more information.
 
 ### 2.8 Admin
 This page hasn't been finished yet (see last page in mockup PDF).
@@ -194,25 +194,25 @@ This section outlines features that are not currently implemented, but are desir
 ### 4.1 User Badges
 Add badges to user profile picture as another motivator. Badges should be earned by accumulating a certain amount of points. There should be multiple badges depending on the amount of points (e.g. Gold, Silver, Platinum, etc).
 ### 4.2 Report Generation
-Have buttons to generate weekly/monthly/yearly reports about the number of ideas submitted/completed/abandoned etc etc etc. The exact content of these reports should be determined by the needs of eHealth.
+Have buttons to generate weekly/monthly/yearly reports about the number of ideas submitted/completed/abandoned etc. The exact content of these reports should be determined by the needs of eHealth.
 
 ## 5 Potential Problems
 
-### 5.1 [Problem 1] Management bottleneck w.r.t. processing ideas
+### 5.1 Management bottleneck w.r.t. processing ideas
 
-**Description:** Managers may be overburdened by the amount of ideas they have to process if they must move the PDCA status for every idea for each team they manage.
+**Description:** Managers may be overburdened by the amount of ideas they have to process if they must move the PDEA status for every idea for each team they manage.
 
 **Suggestions:**
 
-  1. Allow all users to move the PDCA status with no restrictions.
-      * **Pros:** Manager will be completely burden-free as any user can progress the PDCA cycle.
+  1. Allow all users to move the PDEA status with no restrictions.
+      * **Pros:** Manager will be completely burden-free as any user can progress the PDEA cycle.
       * **Cons:** If every user can progress an idea along then there will be users who abuse the system to maximize their points. For example, create "dummy" idea and move it to completion instantly in order to collect points.
 
   2. Emphasize somewhere (e.g. About eIDEAS pop-up on homepage) that Managers are not required to process every single idea submitted. Suggest that they process some number of ideas per week (e.g. 5 per week). These ideas can be selected at the Manager's discretion (e.g. choose "top ideas" as ranked by Score).
       * **Pros:** The load on Manager is lightened as they are not obligated to process every single idea. In addition, Managers have some choice w.r.t. which ideas should (or can) be completed first.
       * **Cons:** By not requiring every idea to be processed, some ideas may be forgotten. The suggested "ideas per week" is a number that must be selected carefully --- too high and the Manager is overburdened; too low and ideas may not see any progression (i.e. they get "stuck" in the queue).
 
-  3. Managers can designate another user from their team (or multiple if they are part of more than one team) to act on their behalf to move the PDCA status. This should be limited to team size in order to avoid (1) above. For example, a manager can assign 1 delegate per 10 members of their team (i.e. team size of 10 -> 1 delegate, team size of 20 -> 2 delegates, etc).
+  3. Managers can designate another user from their team (or multiple if they are part of more than one team) to act on their behalf to move the PDEA status. This should be limited to team size in order to avoid (1) above. For example, a manager can assign 1 delegate per 10 members of their team (i.e. team size of 10 -> 1 delegate, team size of 20 -> 2 delegates, etc).
       * **Pros:** This distributes the work load across multiple people, therefore lowering the burden of the Manager. This also avoids the problem of (1) where users can abuse the system via "dummy" ideas.
       * **Cons:** The amount of delegates per team should be selected carefully --- too many delegates may lead to abuse of the points system; too few and the work load is not adequately distributed. Assigning delegate(s) is itself work, so it is another thing Managers have to do.
 
