@@ -89,39 +89,57 @@ This is a standard login screen with email address and password fields. This scr
 ### 2.2 Registration
 This is a standard registration page which consists of: first & last names, email address, password, and confirm password. In addition, the fields Division and Unit are added to satisfy eHealth's organizational requirements.
 
-Units (or Teams) are the smallest level of grouping at eHealth. For example, the following are Units at eHealth: Knowledge Management, Finance, Continuous Improvement, Service Desk.
+**Units** (or Teams) are the smallest level of grouping at eHealth. For example, the following are Units at eHealth: Knowledge Management, Finance, Continuous Improvement, Service Desk.
 
-Divisions (or Departments) are the next largest grouping, that is, there are multiple Units per Division. Currently, for this project, we are using "eHealth" as a placeholder for Division.
+**Divisions** (or Departments) are the next largest grouping, that is, there are multiple Units per Division. Currently, for this project, we are using "eHealth" as a placeholder for Division.
 
 **Note:** Both Units and Divisions are to be managed (e.g. add/edit/delete) by an Administrator via the Admin page. These values are used to populate the drop-down/combobox lists in the Registration page.
 
 ### 2.3 Homepage
 After the user has logged in, they are automatically redirected to this page. If the user has never logged into the system before, the "About eIDEAS" pop-up will be displayed (see section [Section 2.3.1](#231-about-eideas-pop-up)).
 
-Ranking Overview occupies the top half of the page. This section provides a snapshot of team and individual points. The intention is to give users a quick look at the current standings so that they can compare how well they (or their team) are doing. This was well received in the [usability evaluation](./Lo-Fi%20Usability%20Evaluation/milestone3_usability_report.pdf).
+**Ranking Overview** occupies the top half of the page. This section provides a snapshot of team and individual points. The intention is to give users a quick look at the current standings so that they can compare how well they (or their team) are doing. This was well received in the [usability evaluation](./Lo-Fi%20Usability%20Evaluation/milestone3_usability_report.pdf).
 
-Success Stories
+**Success Stories** (bottom left) are meant to show notable achievements  so that other users may be inspired.
 
-What's New
+**What's New** (bottom right) is meant to provide users with up to date information and facts regarding eIDEAS.
 
 #### 2.3.1 About eIDEAS pop-up
-
+The eIDEAS pop-up is valuable to new users as it provides some context about eIDEAS, the points system, and the rewards structure. This pop-up can be disabled at any time if the user selects the "Don't show this again" checkbox.
 
 ### 2.4 Leaderboard
-### 2.5 My Team
-#### 2.5.1 Tracking Ideas
-### 2.6 My Ideas
-#### 2.6.1 Scoring Ideas
-### 2.7 Account
-### 2.8 Contact Us
-### 2.9 Admin
-## 2 User Help
-### 2.1 Pop-up information
-### 2.2 Mouseovers
-## 3 Leaderboard & Weighting of Points
-### 3.1 Why have users compete with eachother?
-## 5 Include User Profile Photo (Why? Where?)
-## 6 Amendments (Why?)
+This page enables users to track their progress using statistics and charts. It allows users to accurately compare themselves (and their teams) to each other. This is important to in order to keep competitiveness maintained.
+
+The statistics needed for this page are also valuable for Management. These calculations enable Management to generate reports which can describe the overall progress of Units, Divisions, or eHealth entirely.
+
+### 2.5 Ideas
+For an idea to be accepted into the eIDEAS system it must have a **Problem Description** and a proposed **Solution Plan**. Both of these fields are hidden in the default (i.e. compact/minimized) view. This is done to save vertical space and to avoid bombarding users with too much information at once. In the expanded view these fields (and more) are visible (refer to FR2-1.1 in the [requirements document](./requirements.md)).
+
+#### 2.5.1 Scoring
+Scoring allows all users indicate the relative importance of an idea. The value or importance of an idea is implicitly captured by Scoring. This can help Managers and users to make decisions about ideas. For example, Scoring can help answer the following questions:
+
+* Which ideas should be processed first?
+* Which ideas should I contribute to?
+* Which ideas need to be refined more?
+* Which ideas are most likely to succeed or fail?
+
+Scoring is limited from 1 to 5 (1-worst, 5-best) to make selecting a score easy. Users should not have to deliberate extensively in order to assign a Score.
+
+Each idea score is simply the calculated average of each users assigned score number.
+
+#### 2.5.2 Amendments
+
+
+#### 2.5.3 My Ideas
+#### 2.5.4 My Team
+##### Tracking Ideas
+##### PDCA/PDEA Progress
+### 2.6 Account
+### 2.7 Contact Us
+### 2.8 Admin
+## 3 User Help
+### 3.1 Pop-up information
+### 3.2 Mouseovers
 ## 7 PDCA/PDEA (Why?)
 ## X Other Ideas
 ### User Badges
