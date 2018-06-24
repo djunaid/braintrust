@@ -3,16 +3,44 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Discussion](#discussion)
-  - [Design Decisions (Reasoning)](#design-decisions-reasoning)
-    - [Points System (Why? Structure? Give users info about Points)](#points-system-why-structure-give-users-info-about-points)
-    - [User Help (Pop-up information & Mouseovers)](#user-help-pop-up-information--mouseovers)
-    - [Leaderboard & Weighting of Points](#leaderboard--weighting-of-points)
-      - [Why have users compete with eachother?](#why-have-users-compete-with-eachother)
-    - [Include User Profile Photo (Why? Where?)](#include-user-profile-photo-why-where)
-    - [Amendments (Why?)](#amendments-why)
-    - [PDCA (Why?)](#pdca-why)
-  - [Potential Problems](#potential-problems)
-    - [[Problem 1] Management bottleneck w.r.t. processing ideas](#problem-1-management-bottleneck-wrt-processing-ideas)
+  - [1 Points System](#1-points-system)
+    - [1.1 Motivation](#11-motivation)
+      - [Users are motivated by earning physical rewards](#users-are-motivated-by-earning-physical-rewards)
+      - [Users are motivated by progression](#users-are-motivated-by-progression)
+      - [Users are motivated by competition](#users-are-motivated-by-competition)
+      - [Flexibility to Managers](#flexibility-to-managers)
+      - [Easy to track Organizational Progress](#easy-to-track-organizational-progress)
+    - [1.2 Structure](#12-structure)
+      - [Idea Points](#idea-points)
+      - [Participation Points](#participation-points)
+      - [Reasoning](#reasoning)
+      - [Potential Problems](#potential-problems)
+    - [1.3 Other Information about Points](#13-other-information-about-points)
+  - [2 Page Design](#2-page-design)
+    - [2.1 Login](#21-login)
+    - [2.2 Registration](#22-registration)
+    - [2.3 Homepage](#23-homepage)
+      - [2.3.1 About eIDEAS pop-up](#231-about-eideas-pop-up)
+    - [2.4 Leaderboard](#24-leaderboard)
+    - [2.5 My Team](#25-my-team)
+      - [2.5.1 Tracking Ideas](#251-tracking-ideas)
+    - [2.6 My Ideas](#26-my-ideas)
+      - [2.6.1 Scoring Ideas](#261-scoring-ideas)
+    - [2.7 Account](#27-account)
+    - [2.8 Contact Us](#28-contact-us)
+    - [2.9 Admin](#29-admin)
+  - [2 User Help](#2-user-help)
+    - [2.1 Pop-up information](#21-pop-up-information)
+    - [2.2 Mouseovers](#22-mouseovers)
+  - [3 Leaderboard & Weighting of Points](#3-leaderboard--weighting-of-points)
+    - [3.1 Why have users compete with eachother?](#31-why-have-users-compete-with-eachother)
+  - [5 Include User Profile Photo (Why? Where?)](#5-include-user-profile-photo-why-where)
+  - [6 Amendments (Why?)](#6-amendments-why)
+  - [7 PDCA/PDEA (Why?)](#7-pdcapdea-why)
+  - [X Other Ideas](#x-other-ideas)
+    - [User Badges](#user-badges)
+  - [8 Potential Problems](#8-potential-problems)
+    - [8.1 [Problem 1] Management bottleneck w.r.t. processing ideas](#81-problem-1-management-bottleneck-wrt-processing-ideas)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -22,6 +50,7 @@ The purpose of this document is to outline design decisions as well as some pote
 
 ## 1 Points System
 The primary function of the point system is to provide some rewards for collaborating. In addition the point system provides various types of motivations which incentivize users to return.
+
 ### 1.1 Motivation
 The motivations for choosing a points system are described below.
 
@@ -53,10 +82,25 @@ Users are provided information about points in various places in the eIDEAS syst
 
 The structure of points will be decided by Administrators via the tools on the Admin page. This will be where exact point values for each action will be entered.
 ## 2 Page Design
+
 ### 2.1 Login
+This is a standard login screen with email address and password fields. This screen also links to the registration page. Additionally, a link is set up for Forgot Password; however, this page is not implemented at present.
+
 ### 2.2 Registration
+This is a standard registration page which consists of: first & last names, email address, password, and confirm password. In addition, the fields Division and Unit are added to satisfy eHealth's organizational requirements.
+
+Units (or Teams) are the smallest level of grouping at eHealth. For example, the following are Units at eHealth: Knowledge Management, Finance, Continuous Improvement, Service Desk.
+
+Divisions (or Departments) are the next largest grouping, that is, there are multiple Units per Division. Currently, for this project, we are using "eHealth" as a placeholder for Division.
+
+**Note:** Both Units and Divisions are to be managed (e.g. add/edit/delete) by an Administrator via the Admin page. These values are used to populate the drop-down/combobox lists in the Registration page.
+
 ### 2.3 Homepage
+After the user has logged in, they are automatically redirected to this page. If the user has never logged into the system before, the "About eIDEAS" pop-up will be displayed (see section [Section 2.3.1](#231-about-eideas-pop-up)).
+
 #### 2.3.1 About eIDEAS pop-up
+
+
 ### 2.4 Leaderboard
 ### 2.5 My Team
 #### 2.5.1 Tracking Ideas
