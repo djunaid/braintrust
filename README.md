@@ -6,6 +6,9 @@
 <br/><br/><br/><br/>
 
 # Braintrust
+
+**Authors:** Susmita Patel, Reid Stancu, Simranjeet Kaur
+
 Repository for ENSE 885AS eIDEAS project.
 
 Documents:
