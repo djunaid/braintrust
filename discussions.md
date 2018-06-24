@@ -8,8 +8,6 @@
 # Discussion
 The purpose of this document is to outline design decisions as well as some potential problems with respect to Braintrusts eIDEAS project. This document attempts to answer the _why_ questions new readers may have.
 
-------------------
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
