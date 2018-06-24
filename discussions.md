@@ -1,5 +1,5 @@
 <p>
-  <img align="left" src="http://ieaaie2018.encs.concordia.ca/images/UofR.jpg" alt="U of R logo" height="90px"/>
+  <img align="left" src="./uofr_logo.jpg" alt="U of R logo" height="90px"/>
   <img align="right" src="./ehealth_logo.png" alt="eHealth logo" height="90px"/>
 </p>
 
