@@ -16,7 +16,7 @@
       - [Reasoning](#reasoning)
       - [Potential Problems](#potential-problems)
     - [1.3 Other Information about Points](#13-other-information-about-points)
-  - [2 Page Design](#2-page-design)
+  - [2 Design](#2-design)
     - [2.1 Login](#21-login)
     - [2.2 Registration](#22-registration)
     - [2.3 Homepage](#23-homepage)
@@ -27,20 +27,20 @@
       - [2.5.2 Amendments](#252-amendments)
       - [2.5.3 My Ideas](#253-my-ideas)
       - [2.5.4 My Team](#254-my-team)
-        - [Tracking Ideas](#tracking-ideas)
-        - [PDCA/PDEA Progress](#pdcapdea-progress)
+      - [Tracking Ideas](#tracking-ideas)
+      - [PDCA/PDEA Progress](#pdcapdea-progress)
     - [2.6 Account](#26-account)
     - [2.7 Contact Us](#27-contact-us)
     - [2.8 Admin](#28-admin)
   - [3 User Help](#3-user-help)
     - [3.1 Pop-up information](#31-pop-up-information)
     - [3.2 Mouseovers](#32-mouseovers)
-  - [7 PDCA/PDEA (Why?)](#7-pdcapdea-why)
-  - [X Other Ideas](#x-other-ideas)
-    - [User Badges](#user-badges)
-    - [Report Generation](#report-generation)
-  - [8 Potential Problems](#8-potential-problems)
-    - [8.1 [Problem 1] Management bottleneck w.r.t. processing ideas](#81-problem-1-management-bottleneck-wrt-processing-ideas)
+  - [4 Other Ideas](#4-other-ideas)
+    - [4.1 User Badges](#41-user-badges)
+    - [4.2 Report Generation](#42-report-generation)
+  - [5 Potential Problems](#5-potential-problems)
+    - [5.1 [Problem 1] Management bottleneck w.r.t. processing ideas](#51-problem-1-management-bottleneck-wrt-processing-ideas)
+    - [5.2 Duplicate Ideas](#52-duplicate-ideas)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -153,14 +153,14 @@ If the number of ideas is too large to display in one screen, pagenation (or inf
 #### Tracking Ideas
 Users are able to track ideas that are of interest to them. This allows users to collect ideas and quickly visualize them.
 
-Users can track and untrack ideas at any time. If a Manager or delegate (see Section [8.1](#81-problem-1-management-bottleneck-wrt-processing-ideas)) has an idea tracked, they can change the PDEA status via drop-down menu.
+Users can track and untrack ideas at any time. If a Manager or delegate (see Section [5.1](#51-problem-1-management-bottleneck-wrt-processing-ideas)) has an idea tracked, they can change the PDEA status via drop-down menu.
 
 A "crosshair" icon is displayed in the top right of any idea that the current user has tracked. In addition, any tracked idea is view-able from the **Tracked Ideas** tab.
 
 #### PDCA/PDEA Progress
 The PDEA status of an idea can be progressed by tracking an idea and viewing it in the **Tracked Ideas** tab. If the user has proper credentials (e.g. Manager or delegate), then a drop-down will be available to change the status. If the user does not have proper credentials, the drop-down will be disabled (but still visible).
 
-Normal users should not be allowed to change their own PDEA status. Reasoning for this is outlined in Section [8.1](#81-problem-1-management-bottleneck-wrt-processing-ideas).
+Normal users should not be allowed to change their own PDEA status. Reasoning for this is outlined in Section [5.1](#51-problem-1-management-bottleneck-wrt-processing-ideas).
 
 **Note:** For our mockups we have decided to change **P**lan **D**o **C**heck **A**ct (PDCA) to **P**lan **D**o **E**valuate **A**dapt (PDEA) as we feel "Evaluate" and "Adapt" are more easily understood.
 
@@ -194,9 +194,9 @@ Add badges to user profile picture as another motivator. Badges should be earned
 ### 4.2 Report Generation
 Have buttons to generate weekly/monthly/yearly reports about the number of ideas submitted/completed/abandoned etc etc etc. The exact content of these reports should be determined by the needs of eHealth.
 
-## 8 Potential Problems
+## 5 Potential Problems
 
-### 8.1 [Problem 1] Management bottleneck w.r.t. processing ideas
+### 5.1 [Problem 1] Management bottleneck w.r.t. processing ideas
 
 **Description:** Managers may be overburdened by the amount of ideas they have to process if they must move the PDCA status for every idea for each team they manage.
 
@@ -220,7 +220,7 @@ Use a combination of (2) and (3). Start with (2) and observe the suggested "idea
 
 This recommendation overcomes the problems of (1), while also solving the Manager bottleneck issues. For most teams (small), suggestion (2) might be sufficient. If (2) is not sufficient (e.g. for large teams), adding delegates from (3) provides flexibility to mitigate potential "forgotten"/"stuck" ideas that may be introduced by (2).
 
-### 8.2 Duplicate Ideas
+### 5.2 Duplicate Ideas
 
 **Description:** Many duplicate ideas can cause clutter, therefore, a mechanism to minimize them should be provided.
 
