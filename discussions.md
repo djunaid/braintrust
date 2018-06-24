@@ -181,7 +181,9 @@ See Table 7 in the [Requirements Document](./requirements.md) for more informati
 ### 3.1 Pop-up information
 Various pop-up dialogues are used to guide users and explain the consequences of each action (e.g. a button click).
 
-In addition, various pop-ups are used for taking user input (e.g. create idea, reason for abandonment).
+In addition, various pop-ups are used for taking user input (e.g. create idea, reason for abandonment). Further, in the case of the **Tracked Ideas** tab, clicking on an idea displays it in it's full interactive view as a pop-up.
+
+Pop-ups should be included to show when a user has accumulated points (e.g. "you have received 100 idea points").
 
 ### 3.2 Mouseovers
 Add mouseover tips for the idea expansion arrow to explain that it can be clicked (e.g. "show more").
