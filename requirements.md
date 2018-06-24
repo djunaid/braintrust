@@ -1,3 +1,10 @@
+<p>
+  <img align="left" src="./uofr_logo.jpg" alt="U of R logo" height="90px"/>
+  <img align="right" src="./ehealth_logo.png" alt="eHealth logo" height="90px"/>
+</p>
+
+<br/><br/><br/>
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
