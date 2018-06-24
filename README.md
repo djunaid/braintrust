@@ -7,7 +7,7 @@
 
 <br/>
 
-<hr/>
+<br/>
 
 # Braintrust
 Repository for ENSE 885AS eIDEAS project.
