@@ -1,4 +1,9 @@
-<img src="./ehealth_logo.png" alt="drawing" width="250px"/>
+<p>
+  <img align="left" src="http://ieaaie2018.encs.concordia.ca/images/UofR.jpg" alt="U of R logo" width="250px"/>
+  <img align="right" src="./ehealth_logo.png" alt="eHealth logo" width="250px"/>
+</p>
+
+<br/><br/><br/>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
