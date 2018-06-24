@@ -5,6 +5,9 @@
 
 <br/><br/><br/><br/>
 
+# Functional Requirements
+------------------
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
@@ -30,8 +33,6 @@
       - [4.1.1 Software Interfaces](#411-software-interfaces)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Functional Requirements
 
 ## 1 Introduction
 The system requested by eHealth with the goal to improve the quality of healthcare  across the province. This follows the organization's ongoing efforts to foster an internal culture of innovation. Using Plan, Do, Evaluate, Adapt (PDEA) cycles the goal is to improve quality, cost, delivery, safety, and engagement (QCDSE).

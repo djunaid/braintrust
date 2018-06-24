@@ -5,6 +5,11 @@
 
 <br/><br/><br/><br/>
 
+# Discussion
+The purpose of this document is to outline design decisions as well as some potential problems with respect to Braintrusts eIDEAS project. This document attempts to answer the _why_ questions new readers may have.
+
+------------------
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
@@ -50,10 +55,6 @@
     - [5.2 Duplicate Ideas](#52-duplicate-ideas)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Discussion
-The purpose of this document is to outline design decisions as well as some potential problems with respect to Braintrusts eIDEAS project. This document attempts to answer the _why_ questions new readers may have.
-
 
 ## 1 Points System
 The primary function of the point system is to provide some rewards for collaborating. In addition the point system provides various types of motivations which incentivize users to return.
