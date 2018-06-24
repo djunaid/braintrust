@@ -12,7 +12,6 @@ The purpose of this document is to outline design decisions as well as some pote
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Discussion](#discussion)
   - [1 Points System](#1-points-system)
     - [1.1 Motivation](#11-motivation)
       - [Users are motivated by earning physical rewards](#users-are-motivated-by-earning-physical-rewards)

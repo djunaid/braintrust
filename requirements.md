@@ -11,7 +11,6 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Functional Requirements](#functional-requirements)
   - [1 Introduction](#1-introduction)
     - [1.1 Purpose](#11-purpose)
     - [1.2 Scope](#12-scope)
