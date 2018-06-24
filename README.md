@@ -9,7 +9,7 @@
 
 **Authors:** Susmita Patel, Reid Stancu, Simranjeet Kaur
 
-Repository for ENSE 885AS eIDEAS project.
+Repository for ENSE 885AS eIDEAS project (Spring/Summer 2018).
 
 Documents:
 
