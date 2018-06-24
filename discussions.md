@@ -81,7 +81,7 @@ Normalization is not needed for the individual since comparing individuals is st
 Users are provided information about points in various places in the eIDEAS system. Once place is the "About eIDEAS" pop-up that displays when a user first logs into the system. Other places have yet to be determined, but there certainly should be a central area that explains to the user how to earn points, how many points an action rewards, and how many points the user has accumulated as well as their "reward track".
 
 The structure of points will be decided by Administrators via the tools on the Admin page. This will be where exact point values for each action will be entered.
-## 2 Page Design
+## 2 Design
 
 ### 2.1 Login
 This is a standard login screen with email address and password fields. This screen also links to the registration page. Additionally, a link is set up for Forgot Password; however, this page is not implemented at present.
@@ -115,6 +115,8 @@ The statistics needed for this page are also valuable for Management. These calc
 ### 2.5 Ideas
 For an idea to be accepted into the eIDEAS system it must have a **Problem Description** and a proposed **Solution Plan**. Both of these fields are hidden in the default (i.e. compact/minimized) view. This is done to save vertical space and to avoid bombarding users with too much information at once. In the expanded view these fields (and more) are visible (refer to FR2-1.1 in the [requirements document](./requirements.md)).
 
+Ideas should be filterable by the fields listed in FR2-1.1 in the [requirements document](./requirements.md).
+
 #### 2.5.1 Scoring
 Scoring allows all users indicate the relative importance of an idea. The value or importance of an idea is implicitly captured by Scoring. This can help Managers and users to make decisions about ideas. For example, Scoring can help answer the following questions:
 
@@ -135,10 +137,18 @@ This feature is in line the eIDEAS mantra _Kaizen_ as it enables small increment
 **Note:** The Add Amendments button should only be enabled during the Plan and Adapt phases.
 
 #### 2.5.3 My Ideas
-The **My Ideas** page shows all of ideas that the individual user has submitted.
+The **My Ideas** page shows all of ideas that the individual user has submitted. Users can create ideas on this page and submit them (or save them as a draft).
+
+If the number of ideas is too large to display in one screen, pagenation (or infinite scroll) should be used.
 
 #### 2.5.4 My Team
-The **My Team** page shows all of the team ideas.
+The **My Team** page shows all of the team ideas organized into various tabs. Any idea can be displayed here, including ideas from other teams. Users can filter this page by any field from FR2-1.1 in the [requirements document](./requirements.md).
+
+Typically this is where users will start tracking ideas they are interested in.
+
+Similar to any other page where ideas are displayed; users can track, score, and add amendments in the same way.
+
+If the number of ideas is too large to display in one screen, pagenation (or infinite scroll) should be used.
 
 #### Tracking Ideas
 Users are able to track ideas that are of interest to them. This allows users to collect ideas and quickly visualize them.
@@ -155,17 +165,29 @@ Normal users should not be allowed to change their own PDEA status. Reasoning fo
 **Note:** For our mockups we have decided to change **P**lan **D**o **C**heck **A**ct (PDCA) to **P**lan **D**o **E**valuate **A**dapt (PDEA) as we feel "Evaluate" and "Adapt" are more easily understood.
 
 ### 2.6 Account
+This page is hasn't been designed yet but should include basic user account functionality (e.g. change password). See Table 8 in the [Requirements Document](./requirements.md) for more information.
+
 ### 2.7 Contact Us
+This page is hasn't been designed yet but should include basic information about eIDEAS. See FR5-2.4 and FR5-2.4.1 in the [Requirements Document](./requirements.md) for more information.
+
 ### 2.8 Admin
+This page hasn't been finished yet (see last page in mockup PDF).
+
+Administrators are able to decide the point structure. That is, how many points a user gets for completing a given action. For example, adding an idea, amending an idea, scoring an idea, etc.
+
+See Table 7 in the [Requirements Document](./requirements.md) for more information
+
 ## 3 User Help
 ### 3.1 Pop-up information
 ### 3.2 Mouseovers
 Add mouseover tips for the idea expansion arrow to explain that it can be clicked (e.g. "show more").
 
-## 7 PDCA/PDEA (Why?)
-## X Other Ideas
-### User Badges
-### Report Generation
+## 4 Other Ideas
+This section outlines features that are not currently implemented, but are desired for a future release.
+
+### 4.1 User Badges
+Add badges to user profile picture as another motivator. Badges should be earned by accumulating a certain amount of points. There should be multiple badges depending on the amount of points (e.g. Gold, Silver, Platinum, etc).
+### 4.2 Report Generation
 Have buttons to generate weekly/monthly/yearly reports about the number of ideas submitted/completed/abandoned etc etc etc.
 
 ## 8 Potential Problems
@@ -193,3 +215,11 @@ Have buttons to generate weekly/monthly/yearly reports about the number of ideas
 Use a combination of (2) and (3). Start with (2) and observe the suggested "ideas per week" number. If the Manager cannot process this number of ideas per week such that the amount of "forgotten"/"stuck" ideas is minimal, use (3) and introduce delegates.
 
 This recommendation overcomes the problems of (1), while also solving the Manager bottleneck issues. For most teams (small), suggestion (2) might be sufficient. If (2) is not sufficient (e.g. for large teams), adding delegates from (3) provides flexibility to mitigate potential "forgotten"/"stuck" ideas that may be introduced by (2).
+
+### 8.2 Duplicate Ideas
+
+**Description:** Many duplicate ideas can cause clutter, therefore, a mechanism to minimize them should be provided.
+
+**Suggestion:**
+
+1. Add a way for users to "mark as duplicate". The user should provide the ID of the duplicate idea. This should be reviewed/verified by a Manager or Administrator. Once the verification is complete (if it is a duplicate) the Administrator should delete the duplicate submission.
