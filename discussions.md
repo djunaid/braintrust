@@ -140,14 +140,14 @@ The **My Ideas** page shows all of ideas that the individual user has submitted.
 #### 2.5.4 My Team
 The **My Team** page shows all of the team ideas.
 
-##### Tracking Ideas
+#### Tracking Ideas
 Users are able to track ideas that are of interest to them. This allows users to collect ideas and quickly visualize them.
 
 Users can track and untrack ideas at any time. If a Manager or delegate (see Section [8.1](#81-problem-1-management-bottleneck-wrt-processing-ideas)) has an idea tracked, they can change the PDEA status via drop-down menu.
 
 A "crosshair" icon is displayed in the top right of any idea that the current user has tracked. In addition, any tracked idea is view-able from the **Tracked Ideas** tab.
 
-##### PDCA/PDEA Progress
+#### PDCA/PDEA Progress
 The PDEA status of an idea can be progressed by tracking an idea and viewing it in the **Tracked Ideas** tab. If the user has proper credentials (e.g. Manager or delegate), then a drop-down will be available to change the status. If the user does not have proper credentials, the drop-down will be disabled (but still visible).
 
 Normal users should not be allowed to change their own PDEA status. Reasoning for this is outlined in Section [8.1](#81-problem-1-management-bottleneck-wrt-processing-ideas).
