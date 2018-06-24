@@ -1,4 +1,4 @@
-<img src="./ehealth_logo.png" alt="drawing" width="300px"/>
+<img src="./ehealth_logo.png" alt="drawing" width="250px"/>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
