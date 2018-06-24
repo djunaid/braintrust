@@ -98,6 +98,12 @@ Divisions (or Departments) are the next largest grouping, that is, there are mul
 ### 2.3 Homepage
 After the user has logged in, they are automatically redirected to this page. If the user has never logged into the system before, the "About eIDEAS" pop-up will be displayed (see section [Section 2.3.1](#231-about-eideas-pop-up)).
 
+Ranking Overview occupies the top half of the page. This section provides a snapshot of team and individual points. The intention is to give users a quick look at the current standings so that they can compare how well they (or their team) are doing. This was well received in the [usability evaluation](./Lo-Fi Usability Evaluation/milestone3_usability_report.pdf).
+
+Success Stories
+
+What's New
+
 #### 2.3.1 About eIDEAS pop-up
 
 
