@@ -188,7 +188,7 @@ This section outlines features that are not currently implemented, but are desir
 ### 4.1 User Badges
 Add badges to user profile picture as another motivator. Badges should be earned by accumulating a certain amount of points. There should be multiple badges depending on the amount of points (e.g. Gold, Silver, Platinum, etc).
 ### 4.2 Report Generation
-Have buttons to generate weekly/monthly/yearly reports about the number of ideas submitted/completed/abandoned etc etc etc.
+Have buttons to generate weekly/monthly/yearly reports about the number of ideas submitted/completed/abandoned etc etc etc. The exact content of these reports should be determined by the needs of eHealth.
 
 ## 8 Potential Problems
 
