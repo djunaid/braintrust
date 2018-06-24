@@ -220,12 +220,10 @@ Have buttons to generate weekly/monthly/yearly reports about the number of ideas
 
 Use a combination of (2) and (3). Start with (2) and observe the suggested "ideas per week" number. If the Manager cannot process this number of ideas per week such that the amount of "forgotten"/"stuck" ideas is minimal, use (3) and introduce delegates.
 
-This recommendation overcomes the problems of (1), while also solving the Manager bottleneck issues. For most teams (small), suggestion (2) might be sufficient. If (2) is not sufficient (e.g. for large teams), adding delegates from (3) provides flexibility to mitigate potential "forgotten"/"stuck" ideas that may be introduced by (2).
+This recommendation overcomes the problems of (1), while also solving the manager bottleneck issue. For most teams (small), suggestion (2) might be sufficient. If (2) is not sufficient (e.g. for large teams), adding delegates from (3) provides flexibility to mitigate potential "forgotten"/"stuck" ideas that may be introduced by (2).
 
 ### 5.2 Duplicate Ideas
 
 **Description:** Many duplicate ideas can cause clutter, therefore, a mechanism to minimize them should be provided.
 
-**Suggestion:**
-
-1. Add a way for users to "mark as duplicate". The user should provide the ID of the duplicate idea. This should be reviewed/verified by a Manager or Administrator. Once the verification is complete (if it is a duplicate) the Administrator should delete the duplicate submission.
+**Suggestion:** Add a way for users to "mark as duplicate". The user should provide the ID of the duplicate idea. This should be reviewed/verified by a Manager or Administrator. Once the verification is complete (if it is a duplicate) the Administrator should delete the duplicate submission.
