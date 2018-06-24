@@ -3,11 +3,7 @@
   <img align="right" src="./ehealth_logo.png" alt="eHealth logo" height="90px"/>
 </p>
 
-<br/>
-
-<br/>
-
-<br/>
+<br/><br/><br/><br/>
 
 # Braintrust
 Repository for ENSE 885AS eIDEAS project.
