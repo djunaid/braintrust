@@ -179,6 +179,10 @@ See Table 7 in the [Requirements Document](./requirements.md) for more informati
 
 ## 3 User Help
 ### 3.1 Pop-up information
+Various pop-up dialogues are used to guide users and explain the consequences of each action (e.g. a button click).
+
+In addition, various pop-ups are used for taking user input (e.g. create idea, reason for abandonment).
+
 ### 3.2 Mouseovers
 Add mouseover tips for the idea expansion arrow to explain that it can be clicked (e.g. "show more").
 
