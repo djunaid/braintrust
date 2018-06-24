@@ -27,7 +27,7 @@
 # Functional Requirements
 
 ## 1 Introduction
-The system requested by eHealth with the goal to improve the quality of healthcare  across the province. This follows the organization's ongoing efforts to foster an internal culture of innovation. Using Plan, Do, Check, Act (PDEA) cycles the goal is to improve quality, cost, delivery, safety, and engagement (QCDSE).
+The system requested by eHealth with the goal to improve the quality of healthcare  across the province. This follows the organization's ongoing efforts to foster an internal culture of innovation. Using Plan, Do, Evaluate, Adapt (PDEA) cycles the goal is to improve quality, cost, delivery, safety, and engagement (QCDSE).
 
 The proposed project accomplishes this by providing and application for employees to submit their ideas for improving existing organizational processes.  This increases visibility of individual and collaborative work.
 
