@@ -32,7 +32,7 @@ The discussion document is a good place to start in order to become familiar wit
 
 For usability analysis, readers can browse the various documents inside the `Lo-Fi Usability Evaluation` folder. Alternatively, the [Usability Report](./Lo-Fi%20Usability%20Evaluation/milestone3_usability_report.pdf) provides a good summary of our findings. Please note that the usability evaluation took place on June 6th, 2018 and we have made significant updates since then. To see the repository as it was during the evaluation click [here](https://github.com/rstancu/braintrust/tree/7920cbf20be68881166602534009c68aa3ea995a).
 
-In order to achieve a good understanding of the application flow, we recommend using the Balsamiq project file. Open `[eideas.bmpr](./mockups/eideas.bmpr)` in Balsamiq and select Full Screen Presentation (or press `CTRL+F`). Balsamiq can be used via the [cloud](https://balsamiq.cloud/), or it can be downloaded [here](https://balsamiq.com/download/).
+In order to achieve a good understanding of the application flow, we recommend using the Balsamiq project file. Open [`eideas.bmpr`](./mockups/eideas.bmpr) in Balsamiq and select Full Screen Presentation (or press `CTRL+F`). Balsamiq can be used via the [cloud](https://balsamiq.cloud/), or it can be downloaded [here](https://balsamiq.com/download/).
 
 Alternatively, we provide two PDF options. Both are fully interactive with clickable elements:
 
