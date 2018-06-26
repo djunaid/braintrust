@@ -5,6 +5,8 @@
 
 <br/><br/><br/><br/>
 
+**Authors:** Reid Stancu, Simranjeet Kaur, Susmita Patel
+
 # Functional Requirements
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
