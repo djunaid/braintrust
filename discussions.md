@@ -6,7 +6,7 @@
 <br/><br/><br/><br/>
 
 # Discussion
-The purpose of this document is to outline design decisions as well as some potential problems with respect to Braintrusts eIDEAS project. This document attempts to answer the _why_ questions new readers may have.
+The purpose of this document is to outline design decisions as well as some potential problems with respect to Braintrust's eIDEAS project. This document attempts to answer the _why_ questions new readers may have.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -83,7 +83,7 @@ To compensate for varying team size, points must be scaled accordingly. For exam
 
 Normalization is not needed for the individual since comparing individuals is straightforward.
 ### 1.3 Other Information about Points
-Users are provided information about points in various places in the eIDEAS system. One place is the "About eIDEAS" pop-up that displays when a user first logs into the system. Other places have yet to be determined, but there certainly should be a central area that explains to the user how to earn points, how many points an action rewards, and how many points the user has accumulated as well as their "reward track".
+Users are provided information about points in various places in the eIDEAS system. One place is the "About eIDEAS" pop-up (see section [Section 2.3.1](#231-about-eideas-pop-up)) that displays when a user first logs into the system. Other places have yet to be determined, but there certainly should be a central area that explains to the user how to earn points, how many points an action rewards, and how many points the user has accumulated as well as their "reward track".
 
 The structure of points will be decided by Administrators via the tools on the Admin page. This will be where exact point values for each action will be entered.
 ## 2 Design
@@ -91,12 +91,16 @@ The structure of points will be decided by Administrators via the tools on the A
 ### 2.1 Login
 This is a standard login screen with email address and password fields. This screen also links to the registration page. Additionally, a link is set up for Forgot Password; however, this page is not implemented at present.
 
+![eIDEAS Login](./mockups/img/eideas_login_annotated.png "eIDEAS Login")
+
 ### 2.2 Registration
 This is a standard registration page which consists of: first & last names, email address, password, and confirm password. In addition, the fields Division and Unit are added to satisfy eHealth's organizational requirements.
 
 **Units** (or Teams) are the smallest level of grouping at eHealth. For example, the following are Units at eHealth: Knowledge Management, Finance, Continuous Improvement, Service Desk.
 
 **Divisions** (or Departments) are the next largest grouping, that is, there are multiple Units per Division. Currently, for this project, we are using "eHealth" as a placeholder for Division.
+
+![eIDEAS Registration](./mockups/img/eideas_registration_annotated.png "eIDEAS Registration")
 
 **Note:** Both Units and Divisions are to be managed (e.g. add/edit/delete) by an Administrator via the Admin page. These values are used to populate the drop-down/combobox lists in the Registration page.
 
@@ -109,13 +113,21 @@ After the user has logged in, they are automatically redirected to this page. If
 
 **What's New** (bottom right) is meant to provide users with up to date information and facts regarding eIDEAS.
 
+![eIDEAS Homepage](./mockups/img/eideas_homepage.png "eIDEAS Homepage")
+
 #### 2.3.1 About eIDEAS pop-up
 The eIDEAS pop-up is valuable to new users as it provides some context about eIDEAS, the points system, and the rewards structure. This pop-up can be disabled at any time if the user selects the "Don't show this again" checkbox.
+
+![About eIDEAS pop-up](./mockups/img/about_eideas_popup.png "About eIDEAS pop-up")
 
 ### 2.4 Leaderboard
 This page enables users to track their progress using statistics and charts. It allows users to accurately compare themselves (and their teams) to each other. This is important to in order to keep competitiveness maintained.
 
 The statistics needed for this page are also valuable for Management. These calculations enable Management to generate reports which can describe the overall progress of Units, Divisions, or eHealth entirely.
+
+![Individual Leaderboard](./mockups/img/leaderboards_individual.png "Individual Leaderboard")
+
+![Team Leaderboard](./mockups/img/leaderboards_team.png "Team Leaderboard")
 
 ### 2.5 Ideas
 For an idea to be accepted into the eIDEAS system it must have a **Problem Description** and a proposed **Solution Plan**. Both of these fields are hidden in the default (i.e. compact/minimized) view. This is done to save vertical space and to avoid bombarding users with too much information at once. In the expanded view these fields (and more) are visible (refer to FR2-1.1 in the [requirements document](./requirements.md)).
@@ -146,6 +158,8 @@ The **My Ideas** page shows all of ideas that the individual user has submitted.
 
 If the number of ideas is too large to display in one screen, pagenation (or infinite scroll) should be used.
 
+![My Ideas](./mockups/img/my_ideas_annotated.png "My Ideas")
+
 #### 2.5.4 My Team
 The **My Team** page shows all of the team ideas organized into various tabs. Any idea can be displayed here, including ideas from other teams. Users can filter this page by any field from FR2-1.1 in the [requirements document](./requirements.md).
 
@@ -154,6 +168,8 @@ Typically this is where users will start tracking ideas they are interested in.
 Similar to any other page where ideas are displayed; users can track, score, and add amendments in the same way.
 
 If the number of ideas is too large to display in one screen, pagenation (or infinite scroll) should be used.
+
+![My Team](./mockups/img/my_team_annotated.png "My Team")
 
 #### Tracking Ideas
 Users are able to track ideas that are of interest to them. This allows users to collect ideas and quickly visualize them.
@@ -167,6 +183,8 @@ The PDEA status of an idea can be progressed by tracking an idea and viewing it 
 
 Normal users should not be allowed to change their own PDEA status. Reasoning for this is outlined in Section [5.1](#51-problem-1-management-bottleneck-wrt-processing-ideas).
 
+![Tracked Ideas tab](./mockups/img/tracked_ideas.png "Tracked Ideas tab")
+
 **Note:** For our mockups we have decided to change **P**lan **D**o **C**heck **A**ct (PDCA) to **P**lan **D**o **E**valuate **A**dapt (PDEA) as we feel "Evaluate" and "Adapt" are more easily understood.
 
 ### 2.6 Account
@@ -176,9 +194,11 @@ This page hasn't been designed yet, but should include basic user account functi
 This page hasn't been designed yet, but should include basic information about eIDEAS. See FR5-2.4 and FR5-2.4.1 in the [Requirements Document](./requirements.md) for more information.
 
 ### 2.8 Admin
-This page hasn't been finished yet (see last page in mockup PDF).
+This page hasn't been finished yet (see last page in mockup [PDF](./mockups/eideas.pdf)).
 
 Administrators are able to decide the point structure. That is, how many points a user gets for completing a given action. For example, adding an idea, amending an idea, scoring an idea, etc.
+
+![Admin Tools](./mockups/img/admin_tools.png "Admin Tools")
 
 See Table 7 in the [Requirements Document](./requirements.md) for more information
 
@@ -190,8 +210,14 @@ In addition, various pop-ups are used for taking user input (e.g. create idea, r
 
 Pop-ups should be included to show when a user has accumulated points (e.g. "you have received 100 idea points").
 
+![Example Pop-up](./mockups/img/reason_for_abandon.png "Example Pop-up")
+
+![Tracked Ideas Pop-up](./mockups/img/tracked_ideas_popup.png "Tracked Ideas Pop-up")
+
 ### 3.2 Mouseovers
 Add mouseover tips for the idea expansion arrow to explain that it can be clicked (e.g. "show more").
+
+![Mouseover Help](./mockups/img/mouse_hover_help.png "Mouseover Help")
 
 ## 4 Other Ideas
 This section outlines features that are not currently implemented, but are desired for a future release.
