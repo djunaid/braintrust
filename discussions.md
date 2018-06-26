@@ -5,6 +5,8 @@
 
 <br/><br/><br/><br/>
 
+**Authors:** Reid Stancu, Simranjeet Kaur, Susmita Patel
+
 # Discussion
 The purpose of this document is to outline design decisions as well as some potential problems with respect to Braintrust's eIDEAS project. This document attempts to answer the _why_ questions new readers may have.
 
