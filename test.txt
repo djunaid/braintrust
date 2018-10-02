@@ -1,7 +1,4 @@
-<<<<<<< HEAD
+
 test data here
 
 update more text 
-=======
-test data here
->>>>>>> 7a906eb82c15e89f7f365cde671db7fbd868362e
